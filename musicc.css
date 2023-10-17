@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    height: 95%;
+    width: 30%;
+    border: 4px solid black;
+    border-radius: 13%;
+    padding: 15px;
+}
+
+.music{
+    height: 10%;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.header{
+    display: flex;
+}
+
+.music-icon{
+    padding: 8px;
+}
+
+.music-title{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 25px;
+    
+}
+
+.options{
+    padding: 10px 10px 25px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ .music-cover-img{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    margin: auto;
+} 
